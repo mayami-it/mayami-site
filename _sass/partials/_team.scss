@@ -1,0 +1,13 @@
+.title-brand {
+    @include font-size($base-h1-brand-font-size);
+    @include line-height($base-h1-brand-line-height);
+    font-weight: $base-h1-brand-font-weight;
+    letter-spacing: 1.5rem;
+    padding-left: 1.5rem;
+    margin: 0.25em 0 1em;
+}
+
+.list-team {
+  padding: 2em 0 2em;
+  list-style: none;
+}
