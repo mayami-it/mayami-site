@@ -15,7 +15,7 @@
 .title-sub-brand {
     @include font-size($base-h2-font-size);
     @include line-height($base-h2-line-height);
-    color: $base-orange-color;
+    color: desaturate($base-orange-color, 100%);
     margin-bottom: 0.5em;
 }
 
@@ -35,7 +35,13 @@
   list-style: none;
 }
 
-.section-circle { margin: 0; }
+.section-circle {
+    margin: 0;
+    height: 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-image: radial-gradient(ellipse 80% 80% at bottom, $base-magenta-color 58%, $base-orange-color 78%, $base-white-color 88%)
+}
 
 .img-circle {
     display: block;
