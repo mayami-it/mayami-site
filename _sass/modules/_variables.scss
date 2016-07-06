@@ -8,13 +8,17 @@ $base-orange-color:                             hsl(17, 100%, 57%); //#FF6426;
 $base-magenta-color:                            hsl(344, 70%, 51%); //#D92B5A;
 $base-morenga-color:                            mix($base-orange-color, $base-magenta-color); //#EC4840
 
+$base-white-color:                              hsl(0, 100%, 100%);
+
+$base-slate-color:                              hsl(3, 5%, 25%);
+
 // Global Typography
-$base-background-color:                         #fff !default;
+$base-background-color:                         $base-white-color !default;
 $base-font-family:                              'Roboto Condensed', sans-serif !default;
 $base-font-size:                                18 !default;
 $base-line-height:                              24 !default;
 $base-font-weight:                              400 !default;
-$base-font-color:                               #4d3d3c !default;
+$base-font-color:                               $base-slate-color !default;
 $base-link-color:                               $base-morenga-color !default;
 $base-link-hover-color:                         $base-morenga-color !default;
 
@@ -66,8 +70,8 @@ $base-h1-brand-font-weight:                     400 !default;
 $base-input-height:                             36px !default;
 $base-input-placeholder-color:                  #999 !default;
 $base-input-color:                              $base-font-color !default;
-$base-input-background-color:                   #fff !default;
-$base-input-background-focus-color:             #fff !default;
+$base-input-background-color:                   $base-white-color !default;
+$base-input-background-focus-color:             $base-white-color !default;
 $base-input-border-color:                       #ccc !default;
 $base-input-border-focus-color:                 #f7c723 !default;
 $base-select-box-height:                        36px;

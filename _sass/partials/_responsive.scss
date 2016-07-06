@@ -1,0 +1,15 @@
+@include breakpoint(m) {
+    .img-circle { height: 40px; }
+    .img-logo {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@include breakpoint(l) {
+    .img-circle { height: 80px; }
+    .img-logo {
+        width: 200px;
+        height: 200px;
+    }
+}

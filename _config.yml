@@ -7,15 +7,11 @@
 
 # Site settings
 title: MAYAMI
+subtitle: Agence web à Genève
 email: contact@mayami.ch
 description: noting
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-
-# Site titles
-
-site.title: test
-site.subtitle: test
 
 # Build settings
 markdown: kramdown
