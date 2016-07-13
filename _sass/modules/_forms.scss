@@ -97,6 +97,7 @@ select {
         outline: 0;
     }
 }
+
 optgroup { font-weight: 700; }
 
 button {
@@ -132,7 +133,6 @@ button[disabled],
 html input[disabled] {
     cursor: not-allowed;
 }
-
 
 // Placeholder Colour
 ::-webkit-input-placeholder { color: $base-input-placeholder-color; }
