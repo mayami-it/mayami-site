@@ -1,11 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    autoprefixer-rails (6.3.6.2)
+    autoprefixer-rails (6.3.7)
       execjs
     colorator (0.1)
     execjs (2.7.0)
-    ffi (1.9.10)
+    ffi (1.9.14)
     jekyll (3.1.6)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)

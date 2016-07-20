@@ -18,9 +18,9 @@
         position: relative;
         margin-left: -$grid-gutter-m;
         margin-right: -$grid-gutter-m;
+        &:before, &:after { content: ""; display: table; } &:after { clear: both; }
+    }
     .clear-m:before, .clear-m:after { content: ""; display: table; } .clear-m:after { clear: both; }
-    .row-m:before, .row-m:after { content: ""; display: table; } .row-m:after { clear: both; }
-  }
 }
 // Large Device Row
 @include breakpoint(l) {
@@ -28,9 +28,9 @@
         position: relative;
         margin-left: -$grid-gutter-l;
         margin-right: -$grid-gutter-l;
+        &:before, &:after { content: ""; display: table; } &:after { clear: both; }
     }
     .clear-l:before, .clear-l:after { content: ""; display: table; } .clear-l:after { clear: both; }
-    .row-l:before, .row-l:after { content: ""; display: table; } .row-l:after { clear: both; }
 }
 // Extra Large Device Row
 @include breakpoint(xl) {
@@ -38,9 +38,9 @@
         position: relative;
         margin-left: -$grid-gutter-xl;
         margin-right: -$grid-gutter-xl;
+        &:before, &:after { content: ""; display: table; } &:after { clear: both; }
     }
     .clear-xl:before, .clear-xl:after { content: ""; display: table; } .clear-xl:after { clear: both; }
-    .row-xl:before, .row-xl:after { content: ""; display: table; } .row-xl:after { clear: both; }
 }
 
 // Container
@@ -199,7 +199,7 @@ $columns: 12;
 // Medium Device Grid
 @include breakpoint(m) {
 
-    // Medium Device Grid Columns - Global Rules
+  // Medium Device Grid Columns - Global Rules
     .col-1-m,
     .col-2-m,
     .col-3-m,
@@ -347,7 +347,7 @@ $columns: 12;
     // Large Device Pull Offsets
     @for $i from 1 through $columns - 1 {
         .pull-#{$i}-l {
-            left: -($i / $columns) * 100%;
+        left: -($i / $columns) * 100%;
         }
     }
     .pull-1-2-l { left: -(6 / 12) * 100%; }
@@ -414,7 +414,7 @@ $columns: 12;
     // Extra Large Device Push Offsets
     @for $i from 1 through $columns - 1 {
         .push-#{$i}-xl {
-            left: ($i / $columns) * 100%;
+        left: ($i / $columns) * 100%;
         }
     }
     .push-1-2-xl { left: (6 / 12) * 100%; }
@@ -430,7 +430,7 @@ $columns: 12;
     // Extra Large Device Pull Offsets
     @for $i from 1 through $columns - 1 {
         .pull-#{$i}-xl {
-            left: -($i / $columns) * 100%;
+        left: -($i / $columns) * 100%;
         }
     }
     .pull-1-2-xl { left: -(6 / 12) * 100%; }
