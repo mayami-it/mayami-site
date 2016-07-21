@@ -3,3 +3,5 @@
 .u-color-magenta { color: $base-magenta-color; }
 
 .u-color-morenga { color: $base-morenga-color; }
+
+.u-color-light-gray { color: lighten($base-slate-color, 60%); }
