@@ -7,7 +7,7 @@
 
 # Site settings
 title: MAYAMI
-subtitle: Agence web spécialisée en Ruby on Rails à Genève
+subtitle: Vos projets en Ruby on Rails à Genève
 email: contact@mayami.ch
 description: Agence Web à Genève spécialisée dans le développement d'applications en Ruby on Rails.
 baseurl: "" # the subpath of your site, e.g. /blog
