@@ -7,27 +7,27 @@
 
 // Body
 body {
-  font-family: $base-font-family;
-  @include font-size($base-font-size);
-  @include line-height($base-line-height);
-  color: $base-font-color;
-  font-weight: $base-font-weight;
-  background: $base-background-color;
+    font-family: $base-font-family;
+    @include font-size($base-font-size);
+    @include line-height($base-line-height);
+    color: $base-font-color;
+    font-weight: $base-font-weight;
+    background: $base-background-color;
 }
 
 // Paragraph
-p { margin: 0 0 20px 0; }
+p { margin: 0 0 20px; }
 
 // Links
 a {
-  color: $base-link-color;
-  text-decoration: underline;
-  background-color: transparent;
-  &:active, &:hover {
-    color: $base-link-hover-color;
-    outline-width: 0;
-    text-decoration: none;
-  }
+    color: $base-link-color;
+    text-decoration: underline;
+    background-color: transparent;
+    &:active, &:hover {
+        color: $base-link-hover-color;
+        outline-width: 0;
+        text-decoration: none;
+    }
 }
 
 // Headings

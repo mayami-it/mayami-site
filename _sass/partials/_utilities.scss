@@ -4,4 +4,9 @@
 
 .u-color-morenga { color: $base-morenga-color; }
 
-.u-color-light-gray { color: lighten($base-slate-color, 60%); }
+.u-color-light-gray { color: lighten($base-slate-color, 50%); }
+
+.u-valign-m {
+    display: inline-block;
+    vertical-align: middle;
+}

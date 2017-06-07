@@ -15,7 +15,7 @@
 .title-sub-brand {
     @include font-size($base-h2-font-size);
     @include line-height($base-h2-line-height);
-    color: desaturate($base-orange-color, 100%);
+    color: desaturate($base-slate-color, 20%);
     margin-bottom: 0.5em;
 }
 
@@ -35,7 +35,7 @@
     height: 80px;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    background-image: radial-gradient(ellipse 80% 80% at bottom, $base-magenta-color 58%, $base-orange-color 78%, $base-white-color 88%)
+    background-image: radial-gradient(ellipse 80% 80% at bottom, $base-slate-color 60%, $base-magenta-color 70%, $base-orange-color 78%, $base-white-color 88%)
 }
 
 .img-circle {
@@ -45,7 +45,7 @@
     pointer-events: none;
 }
 
-.section-presta { background-color: $base-magenta-color; }
+.section-presta { background-color: $base-slate-color; }
 
 .section-works { background-color: $base-slate-color; }
 
