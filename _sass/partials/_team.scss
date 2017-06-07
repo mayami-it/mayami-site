@@ -27,15 +27,7 @@
     font-size: 2rem;
     color: $base-orange-color;
     border: 4px solid $base-orange-color;
-    margin: 0.5em 0;
-}
-
-.section-circle {
-    margin: 0;
-    height: 80px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    background-image: radial-gradient(ellipse 80% 80% at bottom, $base-slate-color 60%, $base-magenta-color 70%, $base-orange-color 78%, $base-white-color 88%)
+    margin: 1em 0 2em;
 }
 
 .img-circle {
@@ -45,7 +37,7 @@
     pointer-events: none;
 }
 
-.section-presta { background-color: $base-slate-color; }
+.section-presta { background-color: $base-gray-color; }
 
 .section-works { background-color: $base-slate-color; }
 

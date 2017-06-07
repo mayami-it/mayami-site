@@ -10,7 +10,9 @@ $base-morenga-color:                            mix($base-orange-color, $base-ma
 
 $base-white-color:                              hsl(0, 100%, 100%);
 
-$base-slate-color:                              hsl(270, 20%, 30%);
+$base-slate-color:                              hsl(270, 10%, 30%);
+
+$base-gray-color:                               hsl(270, 5%, 90%);
 
 // Global Typography
 $base-background-color:                         $base-white-color !default;
