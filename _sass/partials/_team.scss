@@ -6,28 +6,29 @@
 .title-brand {
     @include font-size($base-h1-brand-font-size);
     @include line-height($base-h1-brand-line-height);
-    font-weight: $base-h1-brand-font-weight;
-    letter-spacing: 1.5rem;
-    padding-left: 1.5rem;
     margin: 0.25em 0 0;
+    padding-left: 1.25rem;
+    letter-spacing: 1.25rem;
+    font-weight: $base-h1-brand-font-weight;
 }
 
 .title-sub-brand {
     @include font-size($base-h2-font-size);
     @include line-height($base-h2-line-height);
-    color: desaturate($base-slate-color, 20%);
     margin-bottom: 0.5em;
+    color: desaturate($base-slate-color, 20%);
+    font-weight: 300;
 }
 
 .title-contact {
     display: inline-block;
-    border-radius: 2rem;
+    margin: 1em 0 2em;
     padding: 1rem 2rem;
+    border: 3px solid $base-orange-color;
+    border-radius: 2rem;
+    color: $base-orange-color;
     font-size: 32px;
     font-size: 2rem;
-    color: $base-orange-color;
-    border: 4px solid $base-orange-color;
-    margin: 1em 0 2em;
 }
 
 .img-circle {
