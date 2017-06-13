@@ -21,12 +21,9 @@ p { margin: 0 0 20px; }
 // Links
 a {
     color: $base-link-color;
-    text-decoration: underline;
     background-color: transparent;
     &:active, &:hover {
         color: $base-link-hover-color;
-        outline-width: 0;
-        text-decoration: none;
     }
 }
 
@@ -139,11 +136,11 @@ small, .small {
 
 figure { margin: 1em 40px; }
 
-hr, .hr {
-  box-sizing: content-box;
-  height: 1px;
-  background: #eee;
-  border: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+// hr, .hr {
+//   box-sizing: content-box;
+//   height: 1px;
+//   background: #eee;
+//   border: 0;
+//   margin-top: 20px;
+//   margin-bottom: 20px;
+// }
