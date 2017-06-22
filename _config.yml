@@ -16,7 +16,7 @@ url: "http://mayami.ch" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - octopress-autoprefixer
 
 sass:
