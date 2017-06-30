@@ -39,6 +39,12 @@
     pointer-events: none;
 }
 
+.title-bullet {
+    padding-right: 5px;
+    padding-left: 5px;
+    color: lighten($base-slate-color, 40%);
+}
+
 .section-gray { background-color: $base-gray-color; }
 
 .section-works { background-color: $base-slate-color; }
