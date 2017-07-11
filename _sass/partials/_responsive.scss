@@ -4,6 +4,16 @@
         width: 100px;
         height: 100px;
     }
+    .list-bullet {
+        & > li { display: inline-block; }
+        & > li:not(:last-child):after {
+            display: inline;
+            padding-right: 5px;
+            padding-left: 5px;
+            color: lighten($base-slate-color, 40%);
+            content: '\2022';
+        }
+    }
 }
 
 @include breakpoint(l) {

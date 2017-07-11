@@ -1,12 +1,27 @@
-<header>
+<header class="section-welcome">
 
-  <div class="container">
-    <nav class="text-center pad-50">
+  <div class="container text-center">
+    <nav class="pad-50">
       <ul class="list-inline">
         <li class="mar-10"><a href="#presta" class="pad-20" data-scroll>Nos prestations</a></li>
         <li class="mar-10"><a href="#team" class="pad-20" data-scroll>Notre équipe</a></li>
+        <li class="mar-10"><a href="#devis" class="pad-20" data-scroll>Demande de devis</a></li>
       </ul>
     </nav>
+
+    {% include mayami-logo.svg %}
+
+    <h1 class="title-brand">{{ site.title }}</h1>
+    <h2 class="title-sub-brand">{{ site.subtitle }}</h2>
+
+    <ul class="list-bullet">
+      <li>Branding</li><li>Conception</li><li>Développement</li><li>Tests</li><li>Déploiement</li>
+    </ul>
+
+    <a href="#presta" data-scroll>
+      <svg class="animated infinite fadeindown" width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><title>scroll-down</title><path d="M32 35.175L7.077 20.785c-1.914-1.104-4.36-.448-5.464 1.465-1.105 1.913-.45 4.36 1.464 5.464l26.846 15.5c.655.378 1.372.55 2.077.536.705.014 1.422-.158 2.077-.536l26.846-15.5c1.914-1.104 2.57-3.55 1.464-5.464-1.104-1.913-3.55-2.57-5.464-1.464L32 35.176z" fill="#ED473F" fill-rule="evenodd"/></svg>
+    </a>
+
   </div>
 
 </header>
