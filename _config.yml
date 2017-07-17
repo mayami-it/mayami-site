@@ -11,7 +11,7 @@ subtitle: Vos projets web et mobile à Genève
 email: contact@mayami.ch
 description: Agence web à Genève spécialisée dans le développement d'applications en Ruby on Rails.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mayami.ch" # the base hostname & protocol for your site
+url: "https://mayami.ch" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
